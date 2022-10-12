@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,400i,600,600i");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+      font-family: 'Titillium Web';
+}
+
+body {
+  background-color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
