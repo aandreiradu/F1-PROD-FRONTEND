@@ -1,17 +1,14 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-
 /node_modules
 /.pnp
 .pnp.js
 
 # testing
-
 /coverage
 
 # production
-
 /build
 
 /.env
@@ -19,64 +16,13 @@
 ../.env
 
 # misc
-
 .DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 .env
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log\*
-
-/client/node_modules
-./client/node_modules
-client/node_modules
-
-/server/node_modules
-./server/node_modules
-server/node_modules
-
-./DS_Store
-/.DS_Store
-.DS_Store
-
-.DS_Store
-
-# Private files:
-
-\*.db
-
-# Logs
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
-
-# Coverage directory used by tools like istanbul
-
-coverage
-\*.lcov
-
-# Deps:
-
-node_modules/
-
-# Builds:
-
-.next/
-build/
-.vercel/
-.eslintcache
-tsconfig.tsbuildinfo
-
-# Environment Variables
-
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
